@@ -1,0 +1,5 @@
+pandas
+streamlit
+openai
+nltk
+streamlit_extras
