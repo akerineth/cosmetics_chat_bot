@@ -11,7 +11,7 @@ import yaml
 
 sys.path.append(".")
 
-config_file = "./app/cfg.yml"
+config_file = "./cfg/cfg.yml"
 
 # Считываем YAML в словарь
 with open(config_file, "r", encoding="utf-8") as f:
