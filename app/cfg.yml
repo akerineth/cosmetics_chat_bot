@@ -1,0 +1,11 @@
+model: "mistral-small-latest"
+data: "smorodina_data.csv"
+required_cols:
+  - "Название"
+  - "Цена"
+  - "Инструкция по применению"
+  - "Состав"
+  - "Описание"
+  - "Ссылка"
+index: "названия_index.json"
+inverse: "названия_inverse.json"
